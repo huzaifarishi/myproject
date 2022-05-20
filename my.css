@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    height: 100vh;
+}
+
+
+.nav-list {
+	display: flex;
+	flex-direction: row;
+	font-family: "Open Sans", sans-serif;
+	justify-content: right;
+
+	margin-top: 0;
+	line-height: 2.5;
+
+	padding: 4px;
+}
+
+a {
+	position: relative;
+	color: rgb(2, 2, 2);
+	font-size: 17px;
+	letter-spacing: 0.2px;
+	text-decoration: none;
+	padding: 0 10px;
+	font-weight: bold;
+}
+a:after {
+	content: "";
+	position: absolute;
+	background-color: #fffefe;
+	height: 3px;
+	width: 0%;
+	bottom: -10px;
+	left: 12px;
+	transition: 0.3s;
+}
+a:hover {
+	color: rgb(253, 243, 245);
+}
+a:hover:after {
+	width: 80%;
+}
+
+.main-wrapper {
+	height: 100vh;
+}
+
+/* .nav-link:hover {
+    border-bottom: 3px solid red;
+    border-radius: px;
+    transition: 1s;
+} */
+a .fa-home {
+	padding: 4px;
+}
+a .fa-list {
+	padding: 4px;
+}
+a .fa-briefcase {
+	padding: 4px;
+}
+a .fa-user {
+	padding: 4px;
+}
+a .fa-comments {
+	padding: 4px;
+}
+.name {
+	font-size: 32px;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+}
+.nav {
+	background-color: rgb(143, 93, 0);
+
+	
+}
+.hero-image{
+    background-image:linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)),url(/rishihuzaifa-main/buildings.jpg);
+background-position:bottom;
+background-repeat: no-repeat;
+background-size:cover;
+height: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.hero-text{
+    color: #fff;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+
+}
+.hero-text h1{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+}
+.hero-text p{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+.l-button {
+    display: inline-block;
+    width: 184px;
+    padding: 26px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
+    border-radius: 32px;
+    cursor: pointer;
+    margin-top: 68px;
+    margin-left: -21px;
+    /* position: fixed; */
+}
+l-button:hover, .l-button:active { background-color: #6f6f70; border-color: #7f7d81; color: #fff; transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in
+}
